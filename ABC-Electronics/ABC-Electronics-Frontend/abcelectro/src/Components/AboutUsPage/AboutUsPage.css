@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+.MainHeadingSection{
+    width: 100%;
+    height: 28vh;
+    background-image: url('../../Assets/aboutUsImages/human-hands-together-holding-together_53876-45259.avif');
+    background-size: cover;
+    background-position: 0%;
+    
+}
+.MainHeadingSection > .mask{
+    width: inherit;
+    height:inherit;
+    background: linear-gradient(#EBEBEB,#813867);
+    opacity: 0.8;
+}
+.MainHeadingSection > h1{
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "Dancing Script", cursive;
+    top: -18vh;
+}
+.AboutUsDetailsSection{
+    width: 96.8%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 150px 20px;
+}
+.AboutUsDetailsSection > .leftAboutUsDetailsSection{
+    flex: 1;
+    text-align: center;
+}
+.AboutUsDetailsSection > .leftAboutUsDetailsSection > img{
+    padding-top: 40px;
+}
+
+.AboutUsDetailsSection > .rightAboutUsDetailsSection{
+    flex: 1;
+    width: auto;
+    height: inherit;
+    padding-top: 100px;
+}
+
+.AboutUsDetailsSection > .rightAboutUsDetailsSection > h1{
+    color: #333;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: "Dancing Script", cursive;
+}
+.AboutUsDetailsSection > .rightAboutUsDetailsSection > p{
+    padding: 20px 0;
+    width: 39vw;
+    color: rgb(84, 84, 84);
+}
+.AboutUsDetailsSection > .rightAboutUsDetailsSection > h2{
+    color: rgb(84, 84, 84);
+    font-size: 17px;
+    font-weight:600;
+    margin-top: -1vh;
+}
+.AboutUsDetailsSection > .rightAboutUsDetailsSection > h4{
+    color: rgb(84, 84, 84);
+    font-size: 14px;
+    font-weight:500;
+}

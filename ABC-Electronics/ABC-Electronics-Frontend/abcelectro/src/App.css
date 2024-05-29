@@ -1,0 +1,58 @@
+*{
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+svg{
+  cursor: pointer;
+}
+svg:hover{
+  color: violet;
+}
+li{
+  cursor: pointer;
+}
+
+input, select{
+  border: none;
+  padding: 15px 0;
+  width: 250px;
+  cursor: pointer;
+  color: black;
+  background-color: transparent;
+  border-bottom: 2px solid grey;
+}
+option{
+  background-color: white;
+  color: rgb(139, 82, 139);
+}
+/* remove arrows of input type numbers */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button{
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(197, 106, 197);
+  cursor: pointer;
+  color: white;
+}
+button:hover{
+  background-color: rgb(165, 100, 165);
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+
+.navBar{
+  color: white;
+}
+.navBar:hover{
+  color: violet;
+}

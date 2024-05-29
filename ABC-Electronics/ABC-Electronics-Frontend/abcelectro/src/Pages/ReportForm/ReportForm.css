@@ -1,0 +1,34 @@
+.ReportFormMainOuterSection{
+    background: linear-gradient(#EBEBEB,#813867);
+    height: 90vh;
+    width: 95vw;
+    padding: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.ReportFormMainInnerSection{
+    background: linear-gradient(#5F0F40,#310E68);
+    width: 70vw;
+    text-align: center;
+    color: white;
+}
+
+.reportForm{
+    height: 80%;
+}
+.FormRow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.FormRow > input[type=text],input[type=number],select{
+    width: 400px;
+    margin-top: 50px;
+    color: white;
+}
+.btnreportForm{
+    margin-top: 40px;
+}

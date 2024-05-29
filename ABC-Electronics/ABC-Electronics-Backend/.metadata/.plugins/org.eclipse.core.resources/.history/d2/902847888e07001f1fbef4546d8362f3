@@ -1,0 +1,24 @@
+package com.example.abcelectronics.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.abcelectronics.entities.Engineer;
+import com.example.abcelectronics.service.AdminService;
+
+@RestController
+@RequestMapping("/API/Engineer")
+public class AdminController {
+	
+	@Autowired
+	private AdminService adminService;
+	
+	@PostMapping("/create")
+	public Engineer addEngineer(@RequestBody Engineer engineerData) {
+		return adminService.addEngineer(engineerData);
+	}
+
+}

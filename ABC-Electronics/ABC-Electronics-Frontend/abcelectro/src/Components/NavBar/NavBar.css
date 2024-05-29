@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+
+.NavMainOuterSection{
+    background-color: rgb(0, 0, 0);
+    padding:15px;
+    color: white;
+}
+
+.NavMainInnerSection{
+    display: flex;
+    align-items: center;
+}
+
+.LeftNavSection{
+    padding-left: 20px;
+    flex: .5;
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+.MiddleNavSection{
+    flex:2;
+}
+
+.MiddleNavSection > ul{
+    display: flex;
+}
+.MiddleNavSection > ul > li{
+    flex:1;
+}
+.rightNavSection{
+    flex: .5;
+    display: flex;
+}
+.rightNavSection > svg,p{
+    cursor: pointer;
+}
+
+.rightNavSection > p{
+    position: relative;
+    top:5px;
+}
+.rightNavSection > p:hover{
+    color: violet;
+}
+
+.NavSideSection{
+    width: 90vw;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.NavSideInnerSection{
+    width: 80vw;
+
+}
+
+.NavSideInnerSection > svg{
+    float: right;
+}
+.lineOne{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.lineOne > h1,h5{
+    flex:1;
+}

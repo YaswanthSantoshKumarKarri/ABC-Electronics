@@ -1,0 +1,10 @@
+.LogInMainOuterSection{
+    height: 120vh;
+}
+
+.LogInnerMainInnerSection{
+    width: 65vw;
+    height: 100vh;
+    display: flex;
+    background-color: black;
+}
